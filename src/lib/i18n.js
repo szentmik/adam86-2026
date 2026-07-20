@@ -32,10 +32,10 @@ export const translations = {
         priceDescription: "* A feltüntetett árak a hozott (az ügyfél által biztosított) végleges szövegekre és képekre vonatkoznak, és a teljes egyedi lefejlesztést (kódolást) tartalmazzák. Amennyiben grafikai tervezésre, szövegírásra vagy képek beszerzésére is szükség van, az egyedi megbeszélés tárgyát képezi.",
 
         aboutTitle: "Rólam",
-        aboutContent: "Veszprém környéki fejlesztőként nem sablonokat kattingatok, hanem kézzel írom a kódot, mert a te vállalkozásod is egyedi. Célom, hogy a Balaton és a megye kisvállalkozásai végre olyan weboldalakat kapjanak, amik valóban ügyfeleket hoznak.",
-    
+        aboutContent: "Helyi vállalkozások digitális jelenlétét építem Balatonfüred, Balatonalmádi, Tihany, Csopak, Veszprém és az Északi Part teljes területén, valamint online országosan. Veszprém környéki fejlesztőként nem sablonokat kattingatok, hanem kézzel írom a kódot, mert a te vállalkozásod is egyedi. Célom, hogy a Balaton és a megye kisvállalkozásai végre olyan weboldalakat kapjanak, amik valóban ügyfeleket hoznak.",
+
         projectTitle: "Projektjeim",
-        
+
         contactTitle: "Kapcsolat",
         contactSubtitle: "Írjon pár sort az elképzeléséiről, vagy kérjen időpontot egy személyes egyeztetésre.",
 
