@@ -26,7 +26,7 @@
 
 		<div class="contact-details">
 			<p>
-				<a href="mailto:szentmik@gmail.com" aria-label="email"
+				<a href="mailto:info@adam86.hu" aria-label="email"
 					><i class="icon fa-solid fa-at"></i></a
 				>
 			</p>
