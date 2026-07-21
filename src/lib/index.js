@@ -9,7 +9,7 @@ export const intersection = (node, delay = 0) => {
             node.classList.remove('show');
         }
 
-        console.log(entry);
+        // console.log(entry);
 
     }, {});
 

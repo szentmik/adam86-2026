@@ -38,6 +38,6 @@ declare module "$app/types" {
 		};
 		Pathname(): "/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): "/img/news-m.webp" | "/img/news.webp" | "/img/room-m.webp" | "/img/room.webp" | "/img/snap-m.webp" | "/img/snap.webp" | "/img/sunnyside-m.webp" | "/img/sunnyside.webp" | "/robots.txt" | string & {};
+		Asset(): "/img/news-m.webp" | "/img/news.webp" | "/img/og-image.png" | "/img/room-m.webp" | "/img/room.webp" | "/img/snap-m.webp" | "/img/snap.webp" | "/img/sunnyside-m.webp" | "/img/sunnyside.webp" | "/robots.txt" | "/sitemap.xml" | string & {};
 	}
 }
