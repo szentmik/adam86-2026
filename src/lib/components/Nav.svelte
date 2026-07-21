@@ -87,7 +87,8 @@
 		transition: 0.3s;
 
 		img {
-			height: 3rem;
+			width: 3.5rem;
+			height: auto;
 		}
 	}
 
