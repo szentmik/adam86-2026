@@ -1,6 +1,5 @@
 <script>
 	import { getContext } from 'svelte';
-	import heroImg from '$lib/assets/hero.webp';
 
 	const { t } = getContext('i18n');
 </script>
@@ -13,7 +12,7 @@
 			<a href="#contact" class="btn">{t('heroButton')}</a>
 		</div>
 		<div>
-			<img src={heroImg} alt="" />
+			<img src="/img/hero.webp" fetchpriority="high" alt="hero img" />
 		</div>
 	</div>
 </section>
