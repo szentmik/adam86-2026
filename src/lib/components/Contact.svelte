@@ -1,6 +1,6 @@
 <script>
 	import { getContext } from 'svelte';
-	import { PUBLIC_WEB3FORM_KEY } from '$env/static/public';
+	import { env } from '$env/dynamic/public';
 
 	const { t } = getContext('i18n');
 
@@ -44,7 +44,7 @@
 		<div>
 			<!-- <form action="https://formspree.io/f/mzdnrqzk" method="POST"> -->
 			<form onsubmit={handleSubmit}>
-				<input type="hidden" name="access_key" value={PUBLIC_WEB3FORM_KEY} />
+				<input type="hidden" name="access_key" value={env.PUBLIC_WEB3FORM_KEY} />
 				<label for="name">{t('contactFormName')}:</label>
 				<input
 					type="text"
