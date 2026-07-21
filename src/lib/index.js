@@ -1,6 +1,6 @@
 // place files you want to import through the `$lib` alias in this folder.
-export const intersection = (node, delay = 0) => {
-    node.style.transitionDelay = `${delay}ms`;
+export const intersection = (node) => {
+    // node.style.transitionDelay = `${delay}ms`;
 
     const observer = new IntersectionObserver(([entry]) => {
         if (entry.isIntersecting) {
